@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="lg:col-span-7 place-self-center text-center sm:text-start">
             <h1 className="mb-4 text-4xl lg:text-6xl font-extrabold">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-purple-600 font-protest-revolution">
-                Hello, I'm{" "}
+                Hello, Im{" "}
               </span>
               <br />
               <TypeAnimation
@@ -36,14 +36,14 @@ const Hero = () => {
               />
             </h1>
             <p className="text-base text-gray-400 w-full lg:max-w-prose">
-              👋 Hi there, I'm Robbie Ncube, a passionate full stack Software
+              👋 Hi there, Im Robbie Ncube, a passionate full stack Software
               Developer dedicated to turning complex problems into simple,
               beautiful solutions. I blend creativity with my technical
               expertise and create digital experiences that not only perform
               seamlessly but also easily onboard users.
             </p>
             <p className="text-base text-gray-400 w-full lg:max-w-prose my-4">
-              Contact me and let's create something extraordinary together!
+              Contact me and let&apos;s create something extraordinary together!
             </p>
             <div className="py-5 flex flex-col sm:flex-row items-center gap-4 font-bold">
               <Link href={"/about"}>

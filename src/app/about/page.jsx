@@ -29,18 +29,18 @@ const About = () => {
           </h2>
           <p className="text-sm">
             My name is Robert Ncube but I go by Robbie Ncube everywhere. I grew
-            up in Southen Africa and I'm a full-stack developer. I have worked
-            on a wide range of projects, from collaborated library package
+            up in Southen Africa and Im a full-stack developer. I have worked on
+            a wide range of projects, from collaborated library package
             applications to eCommerce booking platforms, with a focus on
             creating clean, well-crafted interfaces that not only look great but
             also provide a seamless user experience.
           </p>
           <p className="text-sm">
-            When I'm not fighting with the computer you will also find me in the
+            When Im not fighting with the computer you will also find me in the
             studio recording some hip-hop jam, writing books, screenplays, and
-            comics, or indulging myself in the world of animation. I’m very
+            comics, or indulging myself in the world of animation. Im very
             passionate about music and writing bringing my imagination to life.
-            I’m always curious to learn more when it comes to new technologies
+            Im always curious to learn more when it comes to new technologies
             and creative coding.
           </p>
           <Link href={"/#"} className="mt-12">

@@ -21,9 +21,9 @@ const page = () => {
         <span>Blog</span>
       </Heading>
       <p className="py-6 px-8 border-t border-slate-400">
-        I'm always looking for new stories and insights to share with my
-        readers. I'm here to help you explore the world of technology and
-        inspire you to take action. Stay tuned!
+        Im always looking for new stories and insights to share with my readers.
+        Im here to help you explore the world of technology and inspire you to
+        take action. Stay tuned!
       </p>
       <MainList
         items={blogPosts}

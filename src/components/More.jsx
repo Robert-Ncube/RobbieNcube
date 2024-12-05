@@ -107,8 +107,11 @@ const Socials = () => {
         <h2 className="text-2xl font-extrabold text-gray-600">My Socials</h2>
         <div className="grid w-full grid-cols-4 gap-6 pt-5 border-t border-gray-400">
           {socialsStackData.map((tool, index) => (
-            <div className="flex flex-col gap-2 items-center text-gray-600">
-              <Link key={index} href={tool.path}>
+            <div
+              key={index}
+              className="flex flex-col gap-2 items-center text-gray-600"
+            >
+              <Link href={tool.path}>
                 <Image
                   className="w-16 h-16 object-cover object-center rounded-full"
                   src={tool.image}

@@ -91,8 +91,8 @@ const page = () => {
         <span>Projects</span>
       </Heading>
       <p className="py-4 px-8 border-b border-slate-600">
-        I'm currently working on a few projects that I'm proud of. Here are a
-        few of my recent works.
+        Im currently working on a few projects that Im proud of. Here are a few
+        of my recent works.
       </p>
       <div className="py-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 items-center justify-center gap-4">
         {projects && projects.length > 0 ? (
