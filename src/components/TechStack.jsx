@@ -16,6 +16,7 @@ import sass from "@/assets/icons/sass.png";
 import mongodb from "@/assets/icons/mongodb.png";
 import git from "@/assets/icons/git.png";
 import github from "@/assets/icons/github.png";
+import bootstrap from "@/assets/icons/bootstrap.png";
 import Image from "next/image";
 
 const techStackData = [
@@ -33,6 +34,7 @@ const techStackData = [
   { name: "Mongo DB", image: mongodb },
   { name: "Git", image: git },
   { name: "Git Hub", image: github },
+  { name: "Bootstrap", image: bootstrap },
   // Add more as needed
 ];
 

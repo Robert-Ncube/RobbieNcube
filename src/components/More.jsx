@@ -3,14 +3,14 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import git from "@/assets/icons/git.png";
-import github from "@/assets/icons/github.png";
 import vscode from "@/assets/icons/code.png";
 import terminal from "@/assets/icons/terminal.png";
 import fruitloops from "@/assets/icons/fruitloops.png";
 import word from "@/assets/icons/word.png";
 import krita from "@/assets/icons/krita.png";
 import blender from "@/assets/icons/blender.png";
+import figma from "@/assets/icons/figma.png";
+import wordpress from "@/assets/icons/wordpress.png";
 
 import instagram from "@/assets/icons/instagram.png";
 import linkedin from "@/assets/icons/linkedin.png";
@@ -25,12 +25,12 @@ const Tools = () => {
   const toolsStackData = [
     { name: "VS Code", image: vscode },
     { name: "Terminal", image: terminal },
-    { name: "Git", image: git },
-    { name: "Github", image: github },
     { name: "Fruit Loops", image: fruitloops },
     { name: "Microsoft Word", image: word },
     { name: "Krita", image: krita },
     { name: "Blender", image: blender },
+    { name: "Figma", image: figma },
+    { name: "WordPress", image: wordpress },
   ];
 
   return (
