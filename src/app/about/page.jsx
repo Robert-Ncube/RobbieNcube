@@ -43,7 +43,12 @@ const About = () => {
             Im always curious to learn more when it comes to new technologies
             and creative coding.
           </p>
-          <Link href={"/#"} className="mt-12">
+          <Link
+            href={
+              "https://drive.google.com/file/d/1AHqwdAaQ2b8CxRv7aiahQoCxAFPSKQKC/view?usp=sharing"
+            }
+            className="mt-12"
+          >
             <button
               title="download my resume"
               className="bg-gradient-to-br from-orange-600 via-purple-600 to-white px-1 py-1 rounded-lg w-full sm:w-fit"

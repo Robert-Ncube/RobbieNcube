@@ -20,13 +20,29 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    //clear form
-    setFormData({
-      name: "",
-      email: "",
-      message: "",
-    });
-    alert("Thanks for reaching out!");
+    try {
+      const response = await fetch("/api/send/route", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+      const result = await response.json();
+      if (result.success) {
+        alert("Thanks for reaching out!");
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        alert("Failed to send email.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Failed to send email.");
+    }
   };
 
   return (
@@ -79,7 +95,7 @@ const ContactForm = () => {
             className="border border-slate-400 p-4 rounded-lg bg-slate-100 w-full text-black"
             rows={5}
             name="message"
-            placeholder="Your messssage..."
+            placeholder="Your message..."
             value={formData.message}
             onChange={handleChange}
             required

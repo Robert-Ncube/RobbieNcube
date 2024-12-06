@@ -54,7 +54,7 @@ const page = () => {
                 key={idx}
                 target="_blank"
                 title={social.name}
-                className="rounded-full hover:opacity-50 flex items-center justify-center bg-white"
+                className="rounded-full w-fit hover:opacity-50 flex items-center justify-center bg-white"
               >
                 <Image
                   src={social.image}
