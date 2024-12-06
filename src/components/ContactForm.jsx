@@ -20,29 +20,6 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // try {
-    //   const response = await fetch("/api/send/route", {
-    //     method: "POST",
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     body: JSON.stringify(formData),
-    //   });
-    //   const result = await response.json();
-    //   if (result.success) {
-    //     alert("Thanks for reaching out!");
-    //     setFormData({
-    //       name: "",
-    //       email: "",
-    //       message: "",
-    //     });
-    //   } else {
-    //     alert("Failed to send email.");
-    //   }
-    // } catch (error) {
-    //   console.error("Error:", error);
-    //   alert("Failed to send email.");
-    // }
 
     alert("Thanks for reaching out!");
     setFormData({
