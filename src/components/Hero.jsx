@@ -68,6 +68,7 @@ const Hero = () => {
                 href={
                   "https://drive.google.com/file/d/1AHqwdAaQ2b8CxRv7aiahQoCxAFPSKQKC/view?usp=sharing"
                 }
+                target="_blank"
               >
                 <button
                   title="download my resume"
