@@ -64,7 +64,11 @@ const Hero = () => {
                   </span>
                 </button>
               </Link>
-              <Link href={"/#"}>
+              <Link
+                href={
+                  "https://docs.google.com/document/d/1KaKdrv0-ozav3QJ8dPFvdTNxl_tememu6QHuFVB0CoY/edit?tab=t.0#heading=h.nhyqtz4w9uxg"
+                }
+              >
                 <button
                   title="download my resume"
                   className="bg-gradient-to-br from-orange-600 via-purple-600 to-white px-1 py-1 rounded-lg w-full sm:w-fit"
