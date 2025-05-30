@@ -9,6 +9,8 @@ import Dripit from "@/assets/images/dripit.png";
 import Robbie from "@/assets/images/robbie.png";
 import DHVilla from "@/assets/images/DHVilla.png";
 import Chatterbox from "@/assets/images/chatterbox.png";
+import DigitalByte from "@/assets/images/digitalbyte.png";
+import BookNerd from "@/assets/images/booknerd.png";
 import Link from "next/link";
 import Project from "@/components/project";
 
@@ -49,8 +51,8 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Diamond Hills Villa",
-    description: "Villa Landing Site",
+    title: "Diamond Hills Hotel",
+    description: "Hotel Landing Site",
     image: DHVilla,
     links: [
       {
@@ -73,6 +75,40 @@ export const projects = [
       {
         name: "Github",
         url: "https://github.com/Robert-Ncube/RobbieNcube",
+      },
+    ],
+    date: "2022-01-01",
+  },
+  {
+    id: 5,
+    title: "BookNerd",
+    description: "Book Store",
+    image: BookNerd,
+    links: [
+      {
+        name: "Github",
+        url: "https://github.com/Robert-Ncube/Booknerd",
+      },
+      {
+        name: "Live Demo",
+        url: "https://booknerdstore.vercel.app",
+      },
+    ],
+    date: "2022-01-01",
+  },
+  {
+    id: 6,
+    title: "Digital-Byte",
+    description: "Agency Landing Site",
+    image: DigitalByte,
+    links: [
+      {
+        name: "Github",
+        url: "https://github.com/Robert-Ncube/Digital-Byte",
+      },
+      {
+        name: "Live Demo",
+        url: "https://digitalbyteagency.vercel.app",
       },
     ],
     date: "2022-01-01",
